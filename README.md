@@ -36,6 +36,6 @@ const render = createRenderer({
 // render a template
 const html = render('<hello name="John">And good-bye....</hello>');
 console.log(html.trim());
-// <span>Hello, {{name}}!</span>
+// <span>Hello, John!</span>
 // And good-bye....
 ```
