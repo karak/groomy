@@ -6,7 +6,8 @@
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
-    "test": "jest"
+    "test": "jest",
+    "coverage": "nyc jest"
   },
   "author": "Karak <karak97@gmail.com> (https://github.com/karak)",
   "license": "MIT",
@@ -19,6 +20,7 @@
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.16.0",
     "jest": "^24.1.0",
-    "jest-serializer-html": "^6.0.0"
+    "jest-serializer-html": "^6.0.0",
+    "nyc": "^13.2.0"
   }
 }
