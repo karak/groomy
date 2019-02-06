@@ -1,0 +1,13 @@
+.idea/
+.vscode/
+
+.gitignore
+.gitattributes
+
+yarn.lock
+package-lock.json
+
+.editorconfig
+.eslintrc.*
+jest.config.js
+spec/
