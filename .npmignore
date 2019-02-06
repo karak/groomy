@@ -9,5 +9,6 @@ package-lock.json
 
 .editorconfig
 .eslintrc.*
+.jshintrc
 jest.config.js
 spec/
